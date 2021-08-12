@@ -1,0 +1,133 @@
+@media screen and (min-width: 800px) {
+  .navbar {
+    width: calc(15rem + 1px);
+    height: 100vh;
+    position: fixed;
+    transition: width 300ms ease;
+    border-right: 1px solid var(--dark-darker);
+  }
+  
+  .navbar.shrink {
+    width: calc(4rem + 1px);
+  }
+  
+  .top_menu {
+    position: relative;
+  }
+  
+  .header {
+    justify-content: space-between;
+  }
+  
+  .title {
+    align-items: flex-end;
+  }
+  
+  .hamburger {
+    color: var(--dark);
+    cursor: pointer;
+    position: absolute;
+    top: .5rem;
+    right: calc(-1.5rem - 1px); //1px = nav border
+  }
+}
+
+.navbar {
+  color: var(--white);
+  background: var(--dark);
+}
+
+.header {
+  height: 4.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.header img {
+  width: 3rem;
+  border-radius: 25%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 0.6875rem;
+  >div:first-child {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.62500rem;
+  }
+  >div:last-child {
+    color: var(--light);
+    font-size: .9625rem;
+  }
+}
+
+.main_menu {
+  >*:first-child {
+    margin-bottom: 2rem;
+  }
+  >*:last-child {
+    margin-top: 2rem;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0.75rem;
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .3s ease;
+  >div:first-child {
+    font-size: 1.5rem;
+    display: flex;
+    margin-right: 0.5rem;
+  }
+}
+
+.item:hover {
+  background: var(--dark-lighter);
+}
+
+.item.active {
+  color: var(--dark);
+  background: var(--white);
+}
+.footer {
+  background: var(--dark-lighter);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  
+  a {
+    color: var(--light);
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: 0;
+    text-shadow: 0px 0px black;
+    transition: all .1s ease;
+    
+  }
+  a:hover {
+    text-shadow: 2px 2px black;
+    top: -1px;
+    color: var(--white);
+  }
+}

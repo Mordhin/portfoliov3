@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+  .page {
+    margin-left: 17rem;
+    transition: margin-left 300ms ease;
+  }
+  
+  .page.shrink {
+    margin-left: 6rem;
+  }
+}

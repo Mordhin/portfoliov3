@@ -1,0 +1,42 @@
+@media screen and (max-width: 799px) {
+  .navbar {
+    width: 100vw;
+    height: 32rem;
+    position: fixed;
+    top: 0;
+    transition: height 300ms ease;
+    border-bottom: 1px solid var(--dark-darker);
+    overflow-y: hidden;
+  }
+
+  .navbar.shrink {
+    height: 4.25rem;
+  }
+  
+  .top_menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hamburger {
+    color: var(--white);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    display: flex;
+  }
+
+  .header {
+    justify-content: start;
+  }
+
+  .title {
+    align-items: flex-start;
+  }
+
+  .footer.shrink {
+    display: none;
+  }
+}
