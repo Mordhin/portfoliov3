@@ -1,4 +1,4 @@
-export { Presentation } from "./Presentation.js";
+export { Presentation } from "./presentation/Presentation.js";
 export { Hops } from "./Hops.js";
 export { Trackmania } from "./Trackmania.js";
 export { Pokedex } from "./Pokedex.js";

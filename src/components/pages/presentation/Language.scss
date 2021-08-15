@@ -1,0 +1,45 @@
+.language {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+.language_tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.React {
+  background: #5ED3F380;
+  border: 2px solid #5ED3F3;
+}
+
+.Redux {
+  background: #7248B680;
+  border: 3px solid #7248B6;
+}
+
+.JS {
+  background: #EFD81D80;
+  border: 3px solid #EFD81D;
+}
+
+.Rails {
+  background: #C6000080;
+  border: 3px solid #C60000;
+}
+
+.HTML {
+  background: #DD4B2580;
+  border: 3px solid #DD4B25;
+}
+
+.CSS {
+  background: #254BDD80;
+  border: 3px solid #254BDD;
+}
+
+
