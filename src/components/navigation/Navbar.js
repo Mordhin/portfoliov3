@@ -7,7 +7,7 @@ import { IoBeer } from 'react-icons/io5'
 import { CgPokemon } from 'react-icons/cg'
 import { ImBook } from 'react-icons/im'
 import { MdContactMail } from 'react-icons/md'
-import pp from "../../assets/pp.jpg";
+import pp from "../../assets/ppSquared.jpg";
 import Item from './Item';
 
 export const Navbar = () => {

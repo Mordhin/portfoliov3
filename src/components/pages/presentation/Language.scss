@@ -1,10 +1,15 @@
 .language {
   width: fit-content;
-  padding: 0.5rem 1rem;
-  margin: 1rem;
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
   border-radius: 3px;
   font-weight: bold;
   color: white;
+  display: flex;
+  align-items: center;
+  >*:first-child {
+    margin-right: 0.3rem;
+  }
 }
 
 .language_tags {
@@ -13,33 +18,33 @@
 }
 
 .React {
-  background: #5ED3F380;
-  border: 2px solid #5ED3F3;
+  background: #4d908e;
+
 }
 
 .Redux {
-  background: #7248B680;
-  border: 3px solid #7248B6;
+  background: #577590;
+
 }
 
 .JS {
-  background: #EFD81D80;
-  border: 3px solid #EFD81D;
+  background: #f9c74f;
+
 }
 
 .Rails {
-  background: #C6000080;
-  border: 3px solid #C60000;
+  background: #f94144;
+
 }
 
 .HTML {
-  background: #DD4B2580;
-  border: 3px solid #DD4B25;
+  background: #f3722c;
+
 }
 
 .CSS {
-  background: #254BDD80;
-  border: 3px solid #254BDD;
+  background: #277da1;
+
 }
 
 

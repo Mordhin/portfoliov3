@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Language = ({label}) => {
+export const Language = ({label, children}) => {
     return (
         <div className={`language ${label}`}>
-            {label}
+            {children}{label}
         </div>
     );
 };
