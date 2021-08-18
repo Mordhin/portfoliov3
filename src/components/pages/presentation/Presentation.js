@@ -1,7 +1,7 @@
 import photo from "../../../assets/pp.jpg";
 import { Language } from "./Language";
 import { FaGraduationCap, FaLaptop, FaPencilAlt } from "react-icons/fa";
-import { SiReact, SiRedux, SiJavascript, SiRuby, SiHtml5, SiCss3 } from "react-icons/si";
+import { SiReact, SiRedux, SiJavascript, SiRuby, SiHtml5, SiCss3, SiNodeDotJs } from "react-icons/si";
 import { Fade } from "react-awesome-reveal";
 
 export const Presentation = () => {
@@ -25,9 +25,10 @@ export const Presentation = () => {
             <Language label='React'><SiReact /></Language>
             <Language label='Redux'><SiRedux /></Language>
             <Language label='JS'><SiJavascript /></Language>
-            <Language label='Rails'><SiRuby /></Language>
             <Language label='HTML'><SiHtml5 /></Language>
             <Language label='CSS'><SiCss3 /></Language>
+            <Language label='NodeJS'><SiNodeDotJs /></Language>
+            <Language label='Rails'><SiRuby /></Language>
           </div>
         </div>
         <div className='skills card'>

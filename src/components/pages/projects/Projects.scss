@@ -102,6 +102,22 @@
   }
 }
 
+.tablet_photo {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  img {
+    border: 3px solid black;
+    width: 100%;
+  }
+  grid-column: span 1;
+  @media screen and (max-width: 799px) {
+    grid-column: 1/4;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .project_text {
   width: 100%;
   /* background: lightsalmon; */
@@ -113,5 +129,8 @@
   grid-column: span 3;
   @media screen and (max-width: 799px) {
     grid-column: 1/4;
+  }
+  li {
+    margin-left: 1rem;
   }
 }
