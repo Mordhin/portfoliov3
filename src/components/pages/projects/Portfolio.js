@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { FaGlobe, FaCode } from "react-icons/fa";
-import Tag from "./tags/Tag";
+import Tag from "../tags/Tag";
 
 export const Portfolio = () => {
   return (
