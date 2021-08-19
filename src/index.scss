@@ -8,11 +8,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 
   --dark: hsl(211, 53%, 11%);
   --dark-darker: hsl(211, 53%, 4%);
   --dark-lighter: hsl(219, 37%, 17%);
   --light: hsl(214, 23%, 56%);
+  --shadow: hsl(214, 23%, 56%, 0.1);
+  --shadow-bis: hsl(214, 23%, 56%, 0.2);
   --white: hsl(0, 0%, 95%);
+}
+
+.discret {
+  color: var(--light);
+  font-size: 0.8rem;
+  font-style: italic;
 }

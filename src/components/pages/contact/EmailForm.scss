@@ -1,0 +1,38 @@
+.email_form {
+  font-size: 1rem;
+  background: var(--shadow);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 672px;
+  width: 100%;
+  border: 1px solid var(--shadow);
+  input,
+  textarea {
+    font-size: 1rem;
+    color: var(--dark-lighter);
+    background: white;
+    border: 1px solid var(--shadow-bis);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin: 0 0 1rem 0 !important;
+    resize: vertical;
+    &::placeholder {
+      color: var(--light);
+    }
+  }
+  h3 {
+    margin-bottom: 1rem;
+  }
+  input:last-of-type {
+    color: white;
+    background: var(--light);
+    cursor: pointer;
+    transition: opacity 300ms ease;
+    opacity: 0.8;
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
+  }
+}

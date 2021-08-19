@@ -1,0 +1,73 @@
+.contact h2 {
+  padding: 1rem;
+}
+
+.contact_grid {
+  padding: 1rem;
+  width: 100%;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 799px) {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+.links {
+  font-size: 1.5rem;
+  list-style: none;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--dark);
+  li a {
+    display: flex;
+    align-items: flex-end;
+    overflow-wrap: anywhere;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: var(--dark);
+    svg {
+      font-size: 3rem;
+      margin-right: 0.5rem;
+      color: var(--light);
+      transition: color 300ms ease;
+      &:hover,
+      &:active {
+        color: var(--dark-lighter);
+      }
+    }
+    > div {
+      text-align: end;
+    }
+  }
+  @media screen and (max-width: 799px) {
+    font-size: 1rem;
+  }
+}
+
+.copy_button > div {
+  display: flex;
+  flex-direction: column;
+  svg {
+    font-size: 3rem;
+    margin: 0 auto !important;
+    transition: color 300ms ease;
+    cursor: pointer;
+    &:hover,
+    &:active {
+      color: var(--dark-lighter);
+    }
+  }
+}
+
+.copy_button {
+  height: 3rem;
+  width: 3rem;
+  background: transparent;
+  border: none;
+  color: var(--light);
+  margin-right: 0.5rem;
+  margin-bottom: 2rem;
+}
