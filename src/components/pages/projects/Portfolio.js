@@ -47,7 +47,7 @@ export const Portfolio = () => {
             <br />
             <p>
               J'ai développé ce projet sous React JS, Redux. J'ai codé le style
-              Sass, comme pour la plupart de les projets.
+              en Sass, comme pour la plupart de mes projets.
             </p>
           </div>
           <div className="large_photo">
