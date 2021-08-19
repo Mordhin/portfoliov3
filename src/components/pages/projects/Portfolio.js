@@ -13,12 +13,12 @@ export const Portfolio = () => {
       <div className="project_header">
         <Fade left>
           <div className="flex">
-            <h2>Pokedex</h2>
-            <a href="https://jcpokedex.herokuapp.com" target="_blank">
+            <h2>Portfolio</h2>
+            <div className="disabled">
               <FaGlobe />
               Site
-            </a>
-            <a href="https://github.com/Mordhin/pokedex" target="_blank">
+            </div>
+            <a href="https://github.com/Mordhin/portfoliov3" target="_blank">
               <FaCode />
               Code
             </a>
@@ -28,10 +28,8 @@ export const Portfolio = () => {
           </p>
           <div className="tags">
             <Tag>Front-End</Tag>
-            <Tag>React/Redux</Tag>
+            <Tag>React/redux</Tag>
             <Tag>Responsive</Tag>
-            <Tag>Styled-Components</Tag>
-            <Tag>API</Tag>
           </div>
         </Fade>
       </div>
@@ -39,19 +37,17 @@ export const Portfolio = () => {
         <div className="project_grid">
           <div className="project_text">
             <p>
-              Cette application permet de rechercher un Pokémon et les
-              informations qui le concerne. L'objectif derrière ce projet était
-              de me faire la main avec React et la gestion d'une API
-              (PokeAPI.co). J'en ai également profité pour y intégrer un store
-              Redux, afin d'expérimenter également cette bibliothèque. J'ai fait
-              le choix de PokeAPI car c'est une API gratuite et très riche en
-              data. De plus la diversité colorée des pokémons m'a permis de me
-              faire plaisir sur le style.
+              Je voulais un portfolio simple et efficace pour présenter mes projets. 
+              <br/>
+              Je me suis amusé à coder une navbar dynamique que l'on peut cacher et faire apparaitre à souhait, le tout bien évidemment responsive.
+              Toutes les pages utilisent une css grid qui permet un affichage soigné et surtout facilite la responsivité.
+              <br/>
+              Dans l'onglet contact, j'ai implémenté un formulaire d'envoi de mail que je reçois directement sur ma boîte. 
             </p>
             <br />
             <p>
-              J'ai développé ce projet sous React JS, Redux. J'ai géré le style
-              avec la bibliothèque Styled-Components (CSS-in-JS).{" "}
+              J'ai développé ce projet sous React JS, Redux. J'ai codé le style
+              Sass, comme pour la plupart de les projets.
             </p>
           </div>
           <div className="large_photo">
