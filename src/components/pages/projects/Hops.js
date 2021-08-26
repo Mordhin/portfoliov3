@@ -54,7 +54,7 @@ export const Hops = () => {
               bières enregistrées grâce à du scraping.
               <br />
               Il est possible de "liker" ou de "disliker" la bière, mais aussi
-              de la notée comme "à essayer". De ces actions résultent la mise à
+              de la noter comme "à essayer". De ces actions résultent la mise à
               jour du "cellier" qui enregistre et tri toutes ces bières. Il y
               est même possible de créer une playlist de bière pour un évènement
               particulier par exemple.
