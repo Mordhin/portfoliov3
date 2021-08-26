@@ -58,7 +58,7 @@ export const Contact = () => {
             </li>
             <li>
               <CopyToClipboard
-                text="astram59@gmail.com"
+                text="juliencorion.dev@gmail.com"
                 onCopy={() => setCopied(true)}
               >
                 <button className="copy_button">
