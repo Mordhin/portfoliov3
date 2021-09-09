@@ -16,11 +16,19 @@ export const Hops = () => {
         <Fade left>
           <div className="flex">
             <h2>Hops... I did it again!</h2>
-            <a href="https://hops-505.herokuapp.com" target="_blank">
+            <a
+              href="https://hops-505.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGlobe />
               Site
             </a>
-            <a href="https://github.com/adcousin/hops" target="_blank">
+            <a
+              href="https://github.com/adcousin/hops"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaCode />
               Code
             </a>
@@ -66,7 +74,7 @@ export const Hops = () => {
             <br />
             <p>
               Ce projet a été développé en équipe de 4 développeurs fullstack,
-              codé en Ruby on rails, javascript, html, css. La base donnée est
+              codé en Ruby on rails, javascript, HTML, Scss. La base donnée est
               gérée avec PostgreSQL.
             </p>
           </div>

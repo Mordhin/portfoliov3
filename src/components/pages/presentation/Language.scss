@@ -7,7 +7,7 @@
   color: white;
   display: flex;
   align-items: center;
-  >*:first-child {
+  > *:first-child {
     margin-right: 0.3rem;
   }
 }
@@ -17,37 +17,30 @@
   flex-wrap: wrap;
 }
 
-.React {
+.React\.js {
   background: #4d908e;
-
 }
 
 .Redux {
   background: #577590;
-
 }
 
 .JS {
   background: #f9c74f;
-
 }
 
 .Rails {
   background: #f94144;
-
 }
 
 .HTML {
   background: #f3722c;
-
 }
 
 .CSS {
   background: #277da1;
-
 }
 
-.NodeJS {
+.Node\.js {
   background: #90be6d;
 }
-

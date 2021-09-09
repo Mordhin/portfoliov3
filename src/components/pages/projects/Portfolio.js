@@ -18,7 +18,11 @@ export const Portfolio = () => {
               <FaGlobe />
               Site
             </div>
-            <a href="https://github.com/Mordhin/portfoliov3" target="_blank">
+            <a
+              href="https://github.com/Mordhin/portfoliov3"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaCode />
               Code
             </a>
@@ -37,17 +41,21 @@ export const Portfolio = () => {
         <div className="project_grid">
           <div className="project_text">
             <p>
-              Je voulais un portfolio simple et efficace pour présenter mes projets. 
-              <br/>
-              Je me suis amusé à coder une navbar dynamique que l'on peut cacher et faire apparaitre à souhait, le tout bien évidemment responsive.
-              Toutes les pages utilisent une css grid qui permet un affichage soigné et surtout facilite la responsivité.
-              <br/>
-              Dans l'onglet contact, j'ai implémenté un formulaire d'envoi de mail que je reçois directement sur ma boîte. 
+              Je voulais un portfolio simple et efficace pour présenter mes
+              projets.
+              <br />
+              Je me suis amusé à coder une navbar dynamique que l'on peut cacher
+              et faire apparaitre à souhait, le tout bien évidemment responsive.
+              Toutes les pages utilisent une css grid qui permet un affichage
+              soigné et surtout facilite la responsivité.
+              <br />
+              Dans l'onglet contact, j'ai implémenté un formulaire d'envoi de
+              mail que je reçois directement sur ma boîte.
             </p>
             <br />
             <p>
               J'ai développé ce projet sous React JS, Redux. J'ai codé le style
-              en Sass, comme pour la plupart de mes projets.
+              en Scss, comme pour la plupart de mes projets.
             </p>
           </div>
           <div className="large_photo">

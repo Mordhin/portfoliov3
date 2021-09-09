@@ -39,6 +39,7 @@ export const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/julien-corion-dev"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedin />
                 <div>
@@ -48,7 +49,11 @@ export const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/Mordhin" target="_blank">
+              <a
+                href="https://github.com/Mordhin"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithubSquare />
                 <div>
                   GitHub
