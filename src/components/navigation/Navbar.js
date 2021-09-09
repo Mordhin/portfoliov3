@@ -1,7 +1,13 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { ShrinkAction } from "../../actions/shrinkAction";
-import { FaBars, FaRunning, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import {
+  FaBars,
+  FaRunning,
+  FaLinkedin,
+  FaGithubSquare,
+  FaCar,
+} from "react-icons/fa";
 import { VscPreview } from "react-icons/vsc";
 import { IoBeer } from "react-icons/io5";
 import { CgPokemon } from "react-icons/cg";
@@ -34,17 +40,22 @@ export const Navbar = () => {
       </div>
       <div className={`main_menu ${shrink ? "shrink" : ""}`}>
         <Item to="/" icon={<VscPreview />} label="Présentation" />
-        <Item to="/hops" icon={<IoBeer />} label="Hops... I did it again!" />
         <Item to="/trackmania" icon={<FaRunning />} label="Trackmania" />
         <Item to="/pokedex" icon={<CgPokemon />} label="Pokedex" />
+        <Item to="/rento" icon={<FaCar />} label="Rento" />
+        <Item to="/hops" icon={<IoBeer />} label="Hops... I did it again!" />
         <Item to="/portfolio" icon={<ImBook />} label="Portfolio" />
         <Item to="/contact" icon={<MdContactMail />} label="Contact" />
       </div>
       <div className={`footer ${shrink ? "shrink" : ""}`}>
-        <a href="https://www.linkedin.com/in/julien-corion-dev" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/julien-corion-dev"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/Mordhin" target="_blank">
+        <a href="https://github.com/Mordhin" target="_blank" rel="noreferrer">
           <FaGithubSquare />
         </a>
       </div>

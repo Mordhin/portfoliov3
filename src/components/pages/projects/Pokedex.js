@@ -14,11 +14,19 @@ export const Pokedex = () => {
         <Fade left>
           <div className="flex">
             <h2>Pokedex</h2>
-            <a href="https://jcpokedex.herokuapp.com" target="_blank">
+            <a
+              href="https://jcpokedex.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGlobe />
               Site
             </a>
-            <a href="https://github.com/Mordhin/pokedex" target="_blank">
+            <a
+              href="https://github.com/Mordhin/pokedex"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaCode />
               Code
             </a>

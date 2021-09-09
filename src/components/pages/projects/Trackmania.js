@@ -15,11 +15,19 @@ export const Trackmania = () => {
         <Fade left>
           <div className="flex">
             <h2>Trackmania</h2>
-            <a href="https://jctrackmania.herokuapp.com" target="_blank">
+            <a
+              href="https://jctrackmania.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGlobe />
               Site
             </a>
-            <a href="https://github.com/Mordhin/trackmania" target="_blank">
+            <a
+              href="https://github.com/Mordhin/trackmania"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaCode />
               Code
             </a>
