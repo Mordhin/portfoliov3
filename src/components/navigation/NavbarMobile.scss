@@ -1,12 +1,13 @@
 @media screen and (max-width: 799px) {
   .navbar {
     width: 100vw;
-    height: 32rem;
+    height: fit-content;
     position: fixed;
     top: 0;
     transition: height 300ms ease;
     border-bottom: 1px solid var(--dark-darker);
     overflow-y: hidden;
+    padding-bottom: 2rem;
   }
 
   .navbar.shrink {
