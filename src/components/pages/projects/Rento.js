@@ -51,7 +51,7 @@ export const Rento = () => {
               faire des transitions/transformations sur les différents
               boutons/liens. Ainsi qu'un carousel fait maison.
               <br />
-              Les SVGs viennent des site unDraw.co et haikei.app.
+              Les SVGs viennent des sites unDraw.co et haikei.app.
             </p>
           </div>
           <div className="large_photo">
